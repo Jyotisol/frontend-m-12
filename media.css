@@ -41,7 +41,15 @@
         margin-right: auto;
         
     }
-
+    
+    .small-btn:after, .small-btn:before {
+        content: '';
+        border-style: solid;
+        border-width: 0px 15px 0 15px;
+        border-color: var(--Very-Dark-Grayish-Blue) transparent transparent;
+        top: 100%;
+        position: absolute;
+      }
     .small-btn {
         width: 97%;
         left: 50%;
