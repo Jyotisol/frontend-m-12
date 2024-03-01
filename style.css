@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+    --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
+
+    --font-family: "Manrope", sans-serif;
+}
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Grayish-Blue);
+   display: flex;
+    height: 100vh;
+}
+.main-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    overflow: hidden;
+    border-radius: 18px;
+    box-shadow: 0 0 0 0px var(--Desaturated-Dark-Blue);
+
+}
+.container{
+    font-family: "Manrope", sans-serif;
+    background-color: var(--Light-Grayish-Blue);
+    width: 500px;
+    height: 350px;
+    
+}
+.shift-para{
+    font-size: 25px;
+    font-weight: 700;
+    width: 450px;
+    color: var(--Very-Dark-Grayish-Blue);
+    margin: 30px;
+}
+.ever-para{
+    font-size: 16px;
+    font-weight: 500;
+    width:450px;
+    color: var(--Grayish-Blue);
+    margin: 30px;
+}
+.avtar-data{
+    display: flex;
+    align-items: center;
+    margin: 30px; 
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.avtar-img{
+    border-radius: 50%;
+}
+h4{
+    color:var(--Very-Dark-Grayish-Blue);
+    word-spacing: 0.2rem;
+}
+.name p{
+    color: var(--Grayish-Blue);
+}
+
+.share_button{
+   margin-left: 180px;
+   background-color: var(--Grayish-Blue);
+   padding: 10px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.small-btn{
+    width:15em;
+    height: 3.5em;
+    position: absolute;
+    background-color: var(--Very-Dark-Grayish-Blue);
+    left: 79.4%;
+    gap:10%;
+    margin-bottom: 70px;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    display: none;
+    
+}
+.small-btn:after, .small-btn:before {
+    content: '';
+    border-style: solid;
+    border-width: 10px 25px 0 25px;
+    border-color: var(--Very-Dark-Grayish-Blue) transparent transparent;
+    top: 100%;
+    position: absolute;
+  }
+
+.share{
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    color: var(--Grayish-Blue);
+}
+
+

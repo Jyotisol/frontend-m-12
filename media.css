@@ -1,0 +1,60 @@
+@media only screen and (max-width: 600px) {
+    body {
+       
+       
+    }
+   .main-img{
+       flex-direction: column;
+   }
+   .drawer-img{
+    height: 260px;
+    width:370px;
+   }
+    .container {
+        width: 370px;
+        /* margin: auto; */
+       
+    }
+
+    .shift-para {
+        width: 87%;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+     .ever-para{
+        width:80%;
+       margin-top: 5px;
+       font-size: 15px;
+     }
+    .avtar-data {
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+    }
+
+    .name {
+        margin: 10px;
+    }
+
+    .share_button {
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .small-btn {
+        width: 97%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content:start;
+    }
+    .share_button-1{
+        display: none;
+        background-color: var(--Grayish-Blue);
+        padding: 10px;
+        border-radius: 50%;
+    }
+}
+  
